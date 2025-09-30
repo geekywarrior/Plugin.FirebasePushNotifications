@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net7.0;net7.0-android33.0;net7.0-ios;net8.0;net8.0-android34.0;net8.0-ios17.0</TargetFrameworks>
+		<TargetFrameworks>net8.0;net8.0-android34.0;net8.0-ios17.0</TargetFrameworks>
 		<OutputType>Library</OutputType>
 		<UseMaui>true</UseMaui>
 		<MauiVersion Condition="$(TargetFramework.Contains('net8.0'))">8.0.3</MauiVersion>
-		<MauiVersion Condition="$(TargetFramework.Contains('net7.0'))">7.0.49</MauiVersion>
+		<!--<MauiVersion Condition="$(TargetFramework.Contains('net7.0'))">7.0.49</MauiVersion>-->
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
